@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Copyright>Copyright © 2020</Copyright>
+    <Description>This is a package which extends the neo4j driver with a query caching mechanism which can significantly increase performance.</Description>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Beta version release of neo4j query caching to GA.</PackageReleaseNotes>
+    <Version>1.0.0-beta</Version>
+    <NeutralLanguage />
+    <PackageTags>neo4j graph neo4j-caching cypher cypher-caching query-caching</PackageTags>
+    <PackageProjectUrl>https://github.com/robinskil/Neo4j.QueryCaching</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Neo4j.Driver" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>
